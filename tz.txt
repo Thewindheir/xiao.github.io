@@ -1,0 +1,110 @@
+<div class="iw_content_tz">
+		    			<a href="">
+		    				<span>
+		    					1
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					2
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					3
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					4
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					5
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					6
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					7
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					8
+		    				</span>
+		    			</a>
+		    				<span>
+		    					...
+		    				</span>
+                        <a href="">
+		    				<span>
+		    					13
+		    				</span>
+		    			</a>
+		    			<a href="">
+		    				<span>
+		    					下一页
+		    				</span>
+		    			</a>
+		    				<span>
+		    					跳转到
+		    				</span>
+		    			<input type="text" name="" value="">
+		    				<span>
+		    					页
+		    				</span>
+		    			<input type="submit" name="" value="确定">
+		    		</div>
+
+
+
+.iw_content_tz{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.6rem;
+	font-weight: bold;
+}
+.iw_content_tz a{
+	color: #000;
+}
+.iw_content_tz a span{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 16px;
+    border: 1px solid #000;
+    margin:0 2px;
+}
+.iw_content_tz  span:nth-child(9){
+	padding: 0 10px;
+}
+.iw_content_tz  span:nth-child(12){
+	font-size: 0.75rem;
+	padding: 0 10px;
+}
+.iw_content_tz  span:nth-child(14){
+	font-size: 0.75rem;
+	padding: 0 5px;
+}
+.iw_content_tz  input:nth-child(13){
+	width: 50px;
+	height: 24px;
+}
+.iw_content_tz  input:nth-child(15){
+	width: 46px;
+	height: 28px;
+	background: #e5e5e5;
+	border: 1px solid rgba(0,0,0,.5);
+}
+
+
+
+
