@@ -1,0 +1,7 @@
+去掉右边纵向滚动条方法
+<body style="overflow:-Scroll;overflow-y:hidden" >  
+
+
+
+去掉底部横向滚动条方法
+<body style="overflow:-Scroll;overflow-x:hidden">
