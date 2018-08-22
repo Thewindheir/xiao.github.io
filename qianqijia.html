@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#ss{
+            font-size: 2rem;
+            color: rgba(255,0,255,.7);
+		}
+	</style>
+</head>
+<body>
+	<div id="ss">
+		
+	</div>
+</body>
+<script type="text/javascript">
+window.onload=function(){
+	var ss=document.getElementById('ss');
+	var i=0;
+	function we(){
+	dd=setInterval(function(){
+		var arr=['钱','琪','佳','生','日','快','乐']
+		ss.innerHTML+=arr[i];
+		i++;
+		if (i>6) {
+			  // clearInterval(dd);
+			  i=0;
+		}
+	},500);
+   }
+   we();
+}
+</script>
+<script type="text/javascript">
+	(function (win, doc) {
+  
+    change();
+    
+    function change() {
+      doc.documentElement.style.fontSize = doc.documentElement.clientWidth * 20 / 1920 + 'px';
+    }
+ 
+    win.addEventListener('resize', change, false);
+     
+  })(window, document);
+</script>
+</html>
